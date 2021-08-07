@@ -8,6 +8,5 @@ for i in range(n):
             if arr[i] + arr[j] + arr[k] > m:
                 continue
             else:
-                print(result)
-                result = max(result,arr[i]+arr[j]+arr[k])
-print(result)
+                su.append(arr[i] + arr[j] + arr[k])
+print(max(su))
